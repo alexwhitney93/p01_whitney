@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property(nonatomic, strong) IBOutlet UILabel *label;
+@property(nonatomic, strong) IBOutlet UIButton *button;
 
 
 @end

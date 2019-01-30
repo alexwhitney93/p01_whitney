@@ -13,10 +13,16 @@
 @end
 
 @implementation ViewController
+@synthesize label, button;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(IBAction)changeMessage:(id)sender
+{
+    [label setText:@"Needless to say I keep her in check"];
 }
 
 
